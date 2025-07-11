@@ -1,0 +1,12 @@
+path: datasets/fire_smoke  # đường dẫn đến thư mục gốc dataset
+train: images/train  # đường dẫn đến thư mục ảnh huấn luyện
+val: images/val  # đường dẫn đến thư mục ảnh xác thực 
+test: images/test  # đường dẫn đến thư mục ảnh kiểm tra
+
+# Các lớp (classes)
+nc: 2  # số lượng lớp
+names: ['smoke', 'fire']  # tên các lớp
+
+# Thống kê dataset
+# train: được tự động tính khi chạy
+# val: được tự động tính khi chạy

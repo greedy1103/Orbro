@@ -1,0 +1,10 @@
+ultralytics>=8.0.0
+opencv-python>=4.5.0
+numpy>=1.20.0
+PyYAML>=6.0
+tqdm>=4.65.0
+Pillow>=9.0.0
+kaggle>=1.5.12
+# Hailo requirements - uncomment when using on Raspberry Pi with Hailo
+# hailo-sdk
+# hailo-platform 
